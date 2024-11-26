@@ -1,5 +1,18 @@
 import java.util.Scanner;
 
+/*
+Level 2 - Task:1  Tic Tac Toe
+Description: Implement a two-player tic-tac-toe
+game. Display the game board and prompt each
+player to enter their moves. Check for a winning
+condition or a draw after each move, and display
+the result accordingly. Allow the players to play
+multiple rounds if desired.
+
+Skills: Arrays or matrices, loops, conditional
+statements.
+ */
+
 public class TicTacToe {
     private static char[][] board = new char[3][3];
     private static char currentPlayer = 'X';

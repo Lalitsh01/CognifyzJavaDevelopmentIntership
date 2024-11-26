@@ -1,18 +1,20 @@
 import java.util.Scanner;
 /*
-*To check the strength of a password, follow these steps:
-Input the Password: Prompt the user to enter a password.
-Initialize Criteria Flags: Set up boolean flags to track the presence of uppercase letters, lowercase letters, numbers, and special characters.
-Analyze the Password:
-Loop through each character in the password.
-Update the flags based on the character type (uppercase, lowercase, digit, special).
-Evaluate Strength:
-Check the length of the password.
-Determine the strength based on the combination of length and the presence of different character types.
-Provide Feedback: Output the strength of the password as "Strong", "Medium", or "Weak".
-*
-*
-*
+Level-2 Task2 : Password Strength Checker
+
+Description: Create a program that checks the
+strength of a password. Prompt the user to input a
+password and analyze its strength based on
+certain criteria, such as length, presence of
+uppercase letters, lowercase letters, numbers,
+and special characters. Provide feedback on the
+password strength.
+
+Skills: String manipulation, conditional
+statements.
+
+Cognifyz
+Where Data Meets Intelligence
 */
 public class PasswordStrengthChecker {
 

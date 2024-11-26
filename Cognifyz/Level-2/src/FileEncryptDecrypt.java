@@ -3,7 +3,20 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
+/*
+Level-2 - Task 3 : File Encryption/Decryption
 
+Description: Create a program that encrypts or
+decrypts the contents of a text file using a simple
+encryption algorithm. Prompt the user to choose
+between encryption or decryption, and input the
+file name or path. Encrypt or decrypt the file
+accordingly and save the result to a new file.
+
+Skills: File handling, string manipulation, basic
+input/output operations.
+
+ */
 public class FileEncryptDecrypt {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
